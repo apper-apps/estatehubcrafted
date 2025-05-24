@@ -148,7 +148,7 @@ const Home = () => {
                 className="text-center group"
               >
                 <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-3 md:mb-4 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                  <ApperIcon name={stat.icon} className="w-6 h-6 md:w-8 md:h-8 text-primary" />
+                  <ApperIcon name={stat.icon || "Home"} className="w-6 h-6 md:w-8 md:h-8 text-primary" />
                 </div>
                 <div className="text-2xl md:text-3xl font-bold text-surface-900 dark:text-white mb-1">
                   {stat.value}

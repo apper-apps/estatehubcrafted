@@ -442,15 +442,15 @@ const MainFeature = () => {
 
                     <div className="flex items-center space-x-4 mb-4 text-sm text-surface-600 dark:text-surface-400">
                       <span className="flex items-center">
-                        <ApperIcon name="Bed" className="w-4 h-4 mr-1" />
+                        <ApperIcon name="BedDouble" className="w-4 h-4 mr-1" />
                         {property.bedrooms} bed
                       </span>
                       <span className="flex items-center">
-                        <ApperIcon name="Bath" className="w-4 h-4 mr-1" />
+                        <ApperIcon name="Shower" className="w-4 h-4 mr-1" />
                         {property.bathrooms} bath
                       </span>
                       <span className="flex items-center">
-                        <ApperIcon name="Square" className="w-4 h-4 mr-1" />
+                        <ApperIcon name="SquareIcon" className="w-4 h-4 mr-1" />
                         {property.sqft} sqft
                       </span>
                     </div>
