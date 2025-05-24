@@ -9,7 +9,7 @@ export default {
       colors: {
         primary: {
           DEFAULT: '#2563eb',
-          light: '#60a5fa',
+          light: '#60a5fa', 
           dark: '#1d4ed8'
         },
         secondary: {
@@ -29,7 +29,11 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a'
-        }
+        },
+        border: "#e2e8f0",
+        background: "#ffffff",
+        foreground: "#0f172a",
+        muted: "#f1f5f9"
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
